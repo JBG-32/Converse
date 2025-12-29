@@ -1,6 +1,49 @@
 name: converse
+description: Voice chat with LLM - A Flutter application for conversational AI interaction.
+publish_to: 'none'
+version: 1.0.0+1
+
 environment:
-  sdk: '>=1.19.0 <3.0.0'
-  flutter: ^0.1.2
-dependencies:
-  http: ^0.12.0
+  sdk: '>=3.0.0 <4.0.0'
+
+  dependencies:
+    flutter:
+        sdk: flutter
+
+          # State Management
+            provider: ^6.1.1
+              get_it: ^7.6.4
+
+                # Networking
+                  http: ^1.1.0
+
+                    # Storage
+                      shared_preferences: ^2.2.2
+
+                        # Utilities
+                          intl: ^0.18.1
+                            logger: ^2.0.2
+
+                              # UI
+                                cupertino_icons: ^1.0.6
+
+                                dev_dependencies:
+                                  flutter_test:
+                                      sdk: flutter
+                                        flutter_lints: ^3.0.1
+
+                                        flutter:
+                                          uses-material-design: true
+
+                                            # Assets (uncomment when adding assets)
+                                              # assets:
+                                                #   - assets/images/
+                                                  #   - assets/icons/
+
+                                                    # Fonts (uncomment when adding custom fonts)
+                                                      # fonts:
+                                                        #   - family: CustomFont
+                                                          #     fonts:
+                                                            #       - asset: assets/fonts/CustomFont-Regular.ttf
+                                                              #       - asset: assets/fonts/CustomFont-Bold.ttf
+                                                                #         weight: 700
