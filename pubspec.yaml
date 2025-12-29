@@ -27,23 +27,16 @@ environment:
                               # UI
                                 cupertino_icons: ^1.0.6
 
-                                dev_dependencies:
-                                  flutter_test:
-                                      sdk: flutter
-                                        flutter_lints: ^3.0.1
+                                  # Voice Features
+                                    speech_to_text: ^6.6.0
+                                      flutter_tts: ^3.8.5
+                                        permission_handler: ^11.1.0
+                                          audio_waveforms: ^1.0.5
 
-                                        flutter:
-                                          uses-material-design: true
+                                          dev_dependencies:
+                                            flutter_test:
+                                                sdk: flutter
+                                                  flutter_lints: ^3.0.1
 
-                                            # Assets (uncomment when adding assets)
-                                              # assets:
-                                                #   - assets/images/
-                                                  #   - assets/icons/
-
-                                                    # Fonts (uncomment when adding custom fonts)
-                                                      # fonts:
-                                                        #   - family: CustomFont
-                                                          #     fonts:
-                                                            #       - asset: assets/fonts/CustomFont-Regular.ttf
-                                                              #       - asset: assets/fonts/CustomFont-Bold.ttf
-                                                                #         weight: 700
+                                                  flutter:
+                                                    uses-material-design: true
